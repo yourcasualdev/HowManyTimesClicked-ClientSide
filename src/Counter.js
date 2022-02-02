@@ -1,6 +1,6 @@
 const Counter = ({ num }) => {
     return (
-        <div className="counter">
+        <div className="block glow">
             <p>{num}</p>
         </div>
     );

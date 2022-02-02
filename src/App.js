@@ -18,7 +18,9 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className="title">How Many Times Visited</h1>
       <Counter num={num} />
+      <footer>&copy; <a target="_blank" href="http://ibrahimbabal.com">BABAL</a> </footer>
     </div>
   );
 }
