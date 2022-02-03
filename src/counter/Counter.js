@@ -1,3 +1,4 @@
+import './counter.css'
 const Counter = ({ num }) => {
     return (
         <div className="block glow">
