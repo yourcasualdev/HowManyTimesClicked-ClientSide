@@ -1,5 +1,8 @@
-import Counter from './Counter'
-import { useState, useEffect } from 'react'
+import Counter from './Counter';
+import Title from './Title';
+import Footer from './Footer';
+
+import { useState, useEffect } from 'react';
 
 function App() {
   const API_URL = 'https://how-many-times-clicked.herokuapp.com/num';
@@ -18,9 +21,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title">How Many Times Visited</h1>
+      <Title title="How Many Times Visited" />
       <Counter num={num} />
-      <footer>&copy; <a target="_blank" href="http://ibrahimbabal.com">BABAL</a> </footer>
+      <Footer />
     </div>
   );
 }
